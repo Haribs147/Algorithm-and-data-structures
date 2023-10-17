@@ -32,8 +32,12 @@ public class QuickSortIterative implements Sorting {
 
             while (n > 0) {
                 n--;
+                // first version but the array can get overflowed left = starts.get(starts.size()-1-n);
+                // first version but the array can get overflowed right = ends.get(ends.size()-1-n);
                 left = starts.get(n);
                 right = ends.get(n);
+                starts.remove(n);
+                ends.remove(n);
                 pivot = splitData(data, left, right);
 
                 if (pivot - 1 > left) {
