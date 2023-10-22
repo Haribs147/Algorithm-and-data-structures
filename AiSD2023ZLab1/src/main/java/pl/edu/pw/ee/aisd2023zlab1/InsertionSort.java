@@ -9,11 +9,11 @@ public class InsertionSort implements Sorting {
     @Override
     public void sort(double[] nums) {
         validateParams(nums);
-        for ( int i = 1 ; i < nums.length ; i++){
+        for (int i = 1; i < nums.length; i++) {
             int j = i;
             double temp = nums[i];
-            for(; j>0 && nums[j-1]>temp ; j--)
-                nums[j] = nums[j-1];
+            for (; j > 0 && nums[j - 1] > temp; j--)
+                nums[j] = nums[j - 1];
             nums[j] = temp;
         }
     }

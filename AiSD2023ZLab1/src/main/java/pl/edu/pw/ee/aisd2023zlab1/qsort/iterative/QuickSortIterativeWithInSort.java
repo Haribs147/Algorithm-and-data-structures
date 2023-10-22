@@ -1,6 +1,7 @@
 package pl.edu.pw.ee.aisd2023zlab1.qsort.iterative;
 
 import pl.edu.pw.ee.aisd2023zlab1.services.Sorting;
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,10 +36,9 @@ public class QuickSortIterativeWithInSort implements Sorting {
                 n--;
                 left = starts.remove(n);
                 right = ends.remove(n);
-                if(right - left < 25) {
-                    insort(data, left+1, right+1);
-                }
-                else {
+                if (right - left < 25) {
+                    insort(data, left + 1, right + 1);
+                } else {
                     pivot = splitData(data, left, right);
                     if (pivot > left) {
                         starts.add(left);
@@ -78,6 +78,7 @@ public class QuickSortIterativeWithInSort implements Sorting {
 
         return right;
     }
+
     private void swap(double[] nums, int firstId, int secondId) {
         if (firstId != secondId) {
 
@@ -94,11 +95,11 @@ public class QuickSortIterativeWithInSort implements Sorting {
     }
 
     public void insort(double[] nums, int left, int right) {
-        for ( int i = left ; i < right ; i++){
+        for (int i = left; i < right; i++) {
             double temp = nums[i];
             int j;
-            for(j = i; j>=left && nums[j-1]>temp ; j--)
-                nums[j] = nums[j-1];
+            for (j = i; j >= left && nums[j - 1] > temp; j--)
+                nums[j] = nums[j - 1];
             nums[j] = temp;
         }
     }

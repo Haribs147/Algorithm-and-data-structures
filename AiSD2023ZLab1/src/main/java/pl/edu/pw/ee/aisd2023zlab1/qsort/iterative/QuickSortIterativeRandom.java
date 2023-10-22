@@ -1,6 +1,7 @@
 package pl.edu.pw.ee.aisd2023zlab1.qsort.iterative;
 
 import pl.edu.pw.ee.aisd2023zlab1.services.Sorting;
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +43,7 @@ public class QuickSortIterativeRandom implements Sorting {
 
                 if (pivot > left) {
                     starts.add(left);
-                    ends.add(pivot );
+                    ends.add(pivot);
                     n++;
                 }
 
@@ -80,6 +81,7 @@ public class QuickSortIterativeRandom implements Sorting {
 
         return right;
     }
+
     private void swap(double[] nums, int firstId, int secondId) {
         if (firstId != secondId) {
 

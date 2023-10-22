@@ -1,6 +1,7 @@
 package pl.edu.pw.ee.aisd2023zlab1.qsort.recursive;
 
 import static java.util.Objects.isNull;
+
 import pl.edu.pw.ee.aisd2023zlab1.services.Sorting;
 
 public class QuickSortRecursiveHoare implements Sorting {

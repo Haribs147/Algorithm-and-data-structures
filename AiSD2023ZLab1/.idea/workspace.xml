@@ -6,16 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="796d0244-6165-487d-bf07-e6dfd50a977f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeWithInSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeWithInSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/recursive/QuickSortRecursiveHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab1/qsort/recursive/QuickSortRecursiveHoare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeRandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeRandomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeWithInSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeWithInSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/utils/GeneralSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab1/utils/GeneralSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/edu/pw/ee/aisd2023zlab1/qsort/iterative/QuickSortIterativeMedian3Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/edu/pw/ee/aisd2023zlab1/utils/GeneralSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/edu/pw/ee/aisd2023zlab1/utils/GeneralSortTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +53,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.QuickSortIterativeMedian3Test">
-    <configuration name="QuickSortIterativeMedian3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SelectionSortTest">
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab1.qsort.iterative.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab1.qsort.iterative" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab1.qsort.iterative.QuickSortIterativeMedian3Test" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab1" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab1.InsertionSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuickSortIterativeMedian3Test" />
-        <item itemvalue="JUnit.QuickSortIterativeWithInSortTest" />
-        <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
         <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest" />
+        <item itemvalue="JUnit.QuickSortIterativeWithInSortTest" />
         <item itemvalue="JUnit.QuickSortIterativeTest" />
+        <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
       </list>
     </recent_temporary>
   </component>

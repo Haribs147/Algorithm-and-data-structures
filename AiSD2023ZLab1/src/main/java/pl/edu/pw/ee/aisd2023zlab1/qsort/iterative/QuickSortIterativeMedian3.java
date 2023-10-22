@@ -1,6 +1,7 @@
 package pl.edu.pw.ee.aisd2023zlab1.qsort.iterative;
 
 import pl.edu.pw.ee.aisd2023zlab1.services.Sorting;
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +43,7 @@ public class QuickSortIterativeMedian3 implements Sorting {
 
                 if (pivot > left) {
                     starts.add(left);
-                    ends.add(pivot );
+                    ends.add(pivot);
                     n++;
                 }
 
@@ -59,23 +60,20 @@ public class QuickSortIterativeMedian3 implements Sorting {
         //mediana
         double pivot;
         int randomNum = rand.nextInt((end - start) + 1) + start;
-        if (data[start] > data[randomNum])
-        {
+        if (data[start] > data[randomNum]) {
             if (data[start] < data[end])
-                pivot=data[start];
+                pivot = data[start];
             else if (data[randomNum] > data[end])
-                pivot=data[randomNum];
+                pivot = data[randomNum];
             else
-                pivot=data[end];
-        }
-        else
-        {
+                pivot = data[end];
+        } else {
             if (data[start] > data[end])
-                pivot=data[start];
+                pivot = data[start];
             else if (data[randomNum] < data[end])
-                pivot=data[randomNum];
+                pivot = data[randomNum];
             else
-                pivot=data[end];
+                pivot = data[end];
         }
         //zamiast jak jest w hoarze double pivot = nums[start]; mam pivot = mediana;
         int left = start - 1;
@@ -99,6 +97,7 @@ public class QuickSortIterativeMedian3 implements Sorting {
 
         return right;
     }
+
     private void swap(double[] nums, int firstId, int secondId) {
         if (firstId != secondId) {
 
