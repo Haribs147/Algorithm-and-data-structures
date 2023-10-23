@@ -36,7 +36,7 @@ public class QuickSortIterativeWithInSort implements Sorting {
                 n--;
                 left = starts.remove(n);
                 right = ends.remove(n);
-                if (right - left < 25) {
+                if (right - left < 15) {
                     insort(data, left + 1, right + 1);
                 } else {
                     pivot = splitData(data, left, right);
