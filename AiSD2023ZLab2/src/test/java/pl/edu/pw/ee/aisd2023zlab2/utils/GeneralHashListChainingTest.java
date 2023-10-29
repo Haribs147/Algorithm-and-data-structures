@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.NullEnum;
 import org.junit.jupiter.params.provider.ValueSource;
 import pl.edu.pw.ee.aisd2023zlab2.HashListChaining;
 import pl.edu.pw.ee.aisd2023zlab2.HashListChainingModularHashing;
@@ -62,6 +63,23 @@ public abstract class GeneralHashListChainingTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage(message);
     }
+    @Test
+    public void should_ThrowException_WhenTryingDeleteNullValue() {
+        // given
+        String nullValue = null;
+
+        // when
+        Throwable exceptionCaught = catchThrowable(() -> {
+            hashString.delete(nullValue);
+        });
+
+        // then
+        String message = "Value of elem in hash table cannot be null!";
+
+        assertThat(exceptionCaught)
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage(message);
+    }
 
     @Test
     public void should_ThrowException_WhenTryingToCreateHashWithSizeEqualZero() {
@@ -97,6 +115,22 @@ public abstract class GeneralHashListChainingTest {
         assertThat(nOfElemsAfterAdd).isEqualTo(1);
     }
 
+    @Test
+    public void should_ReturnCorrectSize_AfterRemovingElement() {
+        // given
+        String value = "Ala";
+
+        // when
+        hashString.add(value);
+        int nOfElemsBeforeAdd = getNumOfElems(hashString);
+        hashString.delete(value);
+        int nOfElemsAfterAdd = getNumOfElems(hashString);
+
+        // then
+        assertThat(nOfElemsBeforeAdd).isEqualTo(1);
+        assertThat(nOfElemsAfterAdd).isEqualTo(0);
+    }
+
     @ParameterizedTest
     @ValueSource(ints = {1, 100, 1000})
     void should_NotThrowException_WhenCreatingHashWithSizeBiggerThanZero(int hashSize) {
@@ -105,6 +139,47 @@ public abstract class GeneralHashListChainingTest {
 
         // then
         assert true;
+    }
+
+    @Test
+    public void should_NoOfElemsBeTheSame_WhenTryingDeleteValueThatDoesNotExists() {
+        // given
+        String value = "Ola";
+        hashString.add(value);
+        int nOfElemsBeforeDelete = getNumOfElems(hashString);
+
+        // when
+        hashString.delete("Ala");
+        int nOfElemsAfterDelete = getNumOfElems(hashString);
+        // then
+        assertThat(nOfElemsBeforeDelete).isEqualTo(1);
+        assertThat(nOfElemsAfterDelete).isEqualTo(1);
+    }
+
+    @Test
+    public void should_ReturnNull_WhenTryingGetValueThatDoesNotExists() {
+        // given
+        hashString.add("Ola");
+        String NotExists = "Not Null";
+
+        // when
+        NotExists = hashString.get("Ala");
+        // then
+        assertThat(NotExists).isEqualTo(null);
+    }
+
+    @Test
+    public void should_NotDuplicate_WhenTryingGetValueThatDoesNotExists1() {
+
+
+        // when given
+        int nOfElemsbeforeadd = getNumOfElems(hashString);
+        hashString.add("Ola");
+        hashString.add("Ola");
+        int nOfElemsafteradd = getNumOfElems(hashString);
+        // then
+        assertThat(nOfElemsbeforeadd).isEqualTo(0);
+        assertThat(nOfElemsafteradd).isEqualTo(1);
     }
 
     @Test
