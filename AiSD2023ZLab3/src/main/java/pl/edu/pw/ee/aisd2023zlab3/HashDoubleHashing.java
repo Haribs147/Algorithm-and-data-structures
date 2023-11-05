@@ -1,12 +1,20 @@
 package pl.edu.pw.ee.aisd2023zlab3;
 
-import pl.edu.pw.ee.aisd2023zlab3.exceptions.NotImplementedException;
-
 public class HashDoubleHashing<T extends Comparable<T>> extends HashOpenAdressing<T> {
 
-    @Override
-    int hashFunc(int key, int i) {
-        throw new NotImplementedException("TODO: HashDoubleHashing");
+    public HashDoubleHashing() { super(); }
+
+    public HashDoubleHashing(int size) {
+        super(size);
     }
 
+    @Override
+    protected int hashFunc(int key, int i) {
+        int m = getSize();
+
+        key = key & Integer.MAX_VALUE;
+        int hash1 = key % m;
+        int hash2 = 1 + ( key % (m-2) );
+        return (hash1 + i * hash2) % m;
+    }
 }

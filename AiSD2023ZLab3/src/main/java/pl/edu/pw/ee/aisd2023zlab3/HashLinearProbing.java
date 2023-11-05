@@ -11,7 +11,7 @@ public class HashLinearProbing<T extends Comparable<T>> extends HashOpenAdressin
     }
 
     @Override
-    int hashFunc(int key, int i) {
+    protected int hashFunc(int key, int i) {
         int m = getSize();
 
         key = key & Integer.MAX_VALUE;

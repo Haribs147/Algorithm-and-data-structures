@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edce3371-28eb-4a72-affc-2e2d10fdfc28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab3/HashQuadraticProbingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/src/main/java/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/src/main/java/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/src/test/java/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/src/test/java/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/target/classes/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/target/classes/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/target/test-classes/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/target/test-classes/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashDoubleHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashDoubleHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashLinearProbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashLinearProbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashOpenAdressing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashOpenAdressing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashQuadraticProbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashQuadraticProbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/services/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab3/services/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab3/HashLinearProbingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab3/HashLinearProbingTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XaS9RtUU430E1zYNLaAMARdYSP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.edu.pw.ee.aisd2023zlab3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HashDoubleHashingTest and 2 more">
+    <configuration name="HashDoubleHashingTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab3" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab3.GeneralHashOpenAdressingTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="pl.edu.pw.ee.aisd2023zlab3.HashDoubleHashingTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2023zlab3.HashLinearProbingTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2023zlab3.HashQuadraticProbingTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashDoubleHashingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab3" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab3.HashDoubleHashingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashDoubleHashingTest.should_ThrowException_WhenTryingGetNullValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab3" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab3.HashDoubleHashingTest" />
+      <option name="METHOD_NAME" value="should_ThrowException_WhenTryingGetNullValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashLinearProbingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab3" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab3.HashLinearProbingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashLinearProbingTest.shouasdld_ReturnNull_WhenTryingGetValueThatDoesNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab3" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab3.HashLinearProbingTest" />
+      <option name="METHOD_NAME" value="shouasdld_ReturnNull_WhenTryingGetValueThatDoesNotExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashDoubleHashingTest and 2 more" />
+        <item itemvalue="JUnit.HashDoubleHashingTest" />
+        <item itemvalue="JUnit.HashDoubleHashingTest and 2 more" />
+        <item itemvalue="JUnit.HashLinearProbingTest" />
+        <item itemvalue="JUnit.HashLinearProbingTest.shouasdld_ReturnNull_WhenTryingGetValueThatDoesNotExists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edce3371-28eb-4a72-affc-2e2d10fdfc28" name="Changes" comment="" />
+      <created>1698865546387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698865546387</updated>
+    </task>
+    <servers />
+  </component>
+</project>

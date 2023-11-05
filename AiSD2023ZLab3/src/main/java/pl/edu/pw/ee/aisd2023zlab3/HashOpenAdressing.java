@@ -10,6 +10,7 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
     private int nElems;
     private T[] hashElems;
     private final double correctLoadFactor;
+    private final Integer Delete = Integer.MIN_VALUE;
 
     HashOpenAdressing() {
         this(2039); // initial size as random prime number
@@ -17,7 +18,6 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
 
     HashOpenAdressing(int size) {
         validateHashInitSize(size);
-
         this.size = size;
         this.hashElems = createTable(this.size);
         this.correctLoadFactor = 0.75;
@@ -32,7 +32,7 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
         int i = 0;
         int hashId = hashFunc(key, i);
 
-        while (hashElems[hashId] != nil) {
+        while (hashElems[hashId] != nil && !hashElems[hashId].equals( (T)Delete )) {
             if (i + 1 == size) {
                 doubleResize();
                 i = -1;
@@ -40,19 +40,31 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
             i = (i + 1) % size;
             hashId = hashFunc(key, i);
         }
-
         hashElems[hashId] = newElem;
         nElems++;
     }
 
     @Override
     public T get(T elem) {
-        throw new NotImplementedException("TODO: get(...)");
+        validateInputElem(elem);
+        T getElem;
+        int getIndex = findIndex(elem);
+
+        if(getIndex == -1)
+            return nil;
+        getElem = hashElems[getIndex];
+        return getElem;
     }
 
     @Override
     public void delete(T elem) {
-        throw new NotImplementedException("TODO: delete(...)");
+        validateInputElem(elem);
+        int getIndex = findIndex(elem);
+        if(getIndex == -1)
+            return;
+        nElems--;
+        T DeleteElem = (T) Delete;
+        hashElems[getIndex] = DeleteElem;
     }
 
     private void validateHashInitSize(int initialSize) {
@@ -67,7 +79,7 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
         }
     }
 
-    abstract int hashFunc(int key, int i);
+    protected abstract int hashFunc(int key, int i);
 
     int getSize() {
         return size;
@@ -106,4 +118,17 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
             }
         }
     }
+    private int findIndex(T elem){
+        int key = elem.hashCode();
+        int i = 0;
+        int index = hashFunc(key, i);
+        while (hashElems[index] != nil  ){
+            if(hashElems[index].equals(elem))
+                return index;
+            i = (i + 1) % size;
+            index = hashFunc(key, i);
+        }
+        return -1;
+    }
+
 }
