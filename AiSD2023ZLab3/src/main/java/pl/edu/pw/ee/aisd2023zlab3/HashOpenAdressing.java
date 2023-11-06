@@ -123,6 +123,10 @@ public abstract class HashOpenAdressing<T extends Comparable<T>> implements Hash
         int i = 0;
         int index = hashFunc(key, i);
         while (hashElems[index] != nil  ){
+            if (i + 1 == size) {
+                doubleResize();
+                i = -1;
+            }
             if(hashElems[index].equals(elem))
                 return index;
             i = (i + 1) % size;
