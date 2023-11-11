@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edce3371-28eb-4a72-affc-2e2d10fdfc28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +26,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XaS9RtUU430E1zYNLaAMARdYSP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +42,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab2",
+    "last_opened_file_path": "C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab3",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -57,7 +57,7 @@
       <recent name="pl.edu.pw.ee.aisd2023zlab3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HashDoubleHashingTest">
+  <component name="RunManager" selected="JUnit.HashLinearProbingTest">
     <configuration name="HashDoubleHashingTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab3" />
       <extension name="coverage">
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashLinearProbingTest" />
         <item itemvalue="JUnit.HashDoubleHashingTest" />
         <item itemvalue="JUnit.HashDoubleHashingTest and 2 more" />
+        <item itemvalue="JUnit.HashDoubleHashingTest" />
         <item itemvalue="JUnit.HashDoubleHashingTest and 2 more" />
-        <item itemvalue="JUnit.HashLinearProbingTest" />
-        <item itemvalue="JUnit.HashLinearProbingTest.shouasdld_ReturnNull_WhenTryingGetValueThatDoesNotExists" />
       </list>
     </recent_temporary>
   </component>
