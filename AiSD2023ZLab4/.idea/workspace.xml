@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48aa5238-ecdd-4838-b84c-c955a16f870a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/src/main/java/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/src/main/java/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/src/test/java/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/src/test/java/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/target/classes/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/target/classes/pl/edu/pw/ee/aisd2023zlab2/HashListChainingMultiplicativeHashing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/target/test-classes/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/target/test-classes/pl/edu/pw/ee/aisd2023zlab2/utils/GeneralHashListChainingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashDoubleHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashDoubleHashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashOpenAdressing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/src/main/java/pl/edu/pw/ee/aisd2023zlab3/HashOpenAdressing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/src/test/java/pl/edu/pw/ee/aisd2023zlab3/GeneralHashOpenAdressingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/src/test/java/pl/edu/pw/ee/aisd2023zlab3/GeneralHashOpenAdressingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,32 +19,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2Xu7PmjmJ5pUSqLWTNwcFzCIXmA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab3",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.RbtMapTest.AllPathShouldHaveTheSameNoOfBlackNodes">
+}]]></component>
+  <component name="RunManager" selected="JUnit.RbtMapTest">
     <configuration name="RbtMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab4" />
       <extension name="coverage">
@@ -133,10 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RbtMapTest" />
         <item itemvalue="JUnit.RbtMapTest.AllPathShouldHaveTheSameNoOfBlackNodes" />
         <item itemvalue="JUnit.RbtMapTest.TreeCantHaveTwoConsecutiveLeftRedNodes" />
         <item itemvalue="JUnit.RbtMapTest.AllPathsShouldHaveSameBlackDepth" />
-        <item itemvalue="JUnit.RbtMapTest" />
         <item itemvalue="JUnit.RbtMapTest.AllBlackPaths" />
       </list>
     </recent_temporary>

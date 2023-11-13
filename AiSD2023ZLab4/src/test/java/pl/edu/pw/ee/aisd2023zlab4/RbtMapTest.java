@@ -10,14 +10,24 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 
 public class RbtMapTest {
-
-
+    
+    
+    @Test
+    public void TreeShouldHaveDeleteRight(){
+        RbtMap<Integer, String> rbt = new RbtMap<>();
+        rbt.setValue(6,"D");
+        rbt.setValue(5,"L");
+        rbt.setValue(6,"U");
+        rbt.Delete();
+        assertThat(rbt.getValue(6)).isEqualTo(null);
+        
+    }
     @Test
     public void TreeShouldHaveAllRightNodesBlack(){
         // given
         Stack<Node<Integer, String>> stack = new Stack<>();
         RbtMap<Integer, String> rbt = new RbtMap<>();
-        rbt.setValue(1,"D");
+        /*rbt.setValue(1,"D");
         rbt.setValue(3,"L");
         rbt.setValue(6,"U");
         rbt.setValue(2,"G");
@@ -25,7 +35,24 @@ public class RbtMapTest {
         rbt.setValue(5,"S");
         rbt.setValue(4,"N");
         rbt.setValue(7,"Y");
+*/
+        rbt.setValue(13,"D");
+        rbt.setValue(12,"L");
+        rbt.setValue(11,"U");
+        rbt.setValue(10,"G");
+        rbt.setValue(9,"A");
+        rbt.setValue(8,"S");
+        rbt.setValue(7,"N");
+        rbt.setValue(6,"Y");
+        rbt.setValue(5,"1");
+        rbt.setValue(4,"2");
+        rbt.setValue(3,"3");
+        rbt.setValue(2,"4");
+        rbt.setValue(1,"5");
+        rbt.setValue(0,"6");
+
         Node<Integer, String> root = rbt.getRoot();
+        root.printTreeWithValues(root, 0);
         int IsRightNodeRed = 0;
         //when
 
@@ -83,13 +110,13 @@ public class RbtMapTest {
     public void AllPathShouldHaveTheSameNoOfBlackNodes() {
         RbtMap<Integer, String> rbt = new RbtMap<>();
         rbt.setValue(1,"D");
-        rbt.setValue(3,"L");
+        rbt.setValue(2,"L");
         rbt.setValue(6,"U");
         rbt.setValue(2,"G");
-        rbt.setValue(0,"A");
+        rbt.setValue(9,"A");
         rbt.setValue(5,"S");
         rbt.setValue(4,"N");
-        rbt.setValue(7,"Y");
+        rbt.setValue(18,"Y");
         Node<Integer, String> root = rbt.getRoot();
         Node<Integer, String> firstPath = rbt.getRoot();
         int expectedBlackDepth = 0;

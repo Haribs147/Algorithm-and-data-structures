@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.edu.pw.ee.aisd2023zlab4.performance.RbtMapPerformanceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.589 s - in pl.edu.pw.ee.aisd2023zlab4.performance.RbtMapPerformanceTest

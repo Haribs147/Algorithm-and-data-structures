@@ -6,7 +6,7 @@ import static pl.edu.pw.ee.aisd2023zlab4.Color.RED;
 public class RedBlackTree<K extends Comparable<K>, V> {
 
     private Node<K, V> root;
-
+    private int currentNumOfPut = 0;
     public V get(K key) {
         validateKey(key);
         Node<K, V> node = root;
@@ -31,10 +31,23 @@ public class RedBlackTree<K extends Comparable<K>, V> {
 
     public void put(K key, V value) {
         validateParams(key, value);
+        currentNumOfPut = 0;
         root = put(root, key, value);
         root.setColor(BLACK);
     }
+    
+    public void deleteMax() {
+        if (root == null) {
+            return;
+        }
 
+        root = deleteMax(root);
+
+        if (root != null) {
+            root.setColor(BLACK);
+        }
+    }
+    
     private void validateKey(K key) {
         if (key == null) {
             throw new IllegalArgumentException("Key cannot be null.");
@@ -56,6 +69,7 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> put(Node<K, V> node, K key, V value) {
+        currentNumOfPut++;
         if (node == null) {
             return new Node(key, value);
         }
@@ -93,6 +107,38 @@ public class RedBlackTree<K extends Comparable<K>, V> {
         node.setLeft(leftChild);
     }
 
+    private Node<K, V> deleteMax(Node<K, V> node) {
+        if (isRed(node.getLeft())) {
+            node = rotateRight(node);
+        }
+
+        if (node.getRight() == null) {
+            return null;
+        }
+
+        if (!isRed(node.getRight()) && !isRed(node.getRight().getLeft())) {
+            node = reorganizeRedToRight(node);
+        }
+
+        Node<K, V> deleteResult = deleteMax(node.getRight());
+        node.setRight(deleteResult);
+
+        return reorganizeTree(node);
+    }
+    
+    
+    private Node<K, V> reorganizeRedToRight(Node<K, V> node) {
+        changeColors(node);
+
+        if (isRed(node.getLeft().getLeft())) {
+            node = rotateRight(node);
+            changeColors(node);
+        }
+
+        return node;
+    }
+    
+    
     private Node<K, V> reorganizeTree(Node<K, V> node) {
         node = rotateLeftIfNeeded(node);
         node = rotateRightIfNeeded(node);
