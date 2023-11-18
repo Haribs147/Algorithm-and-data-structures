@@ -83,13 +83,6 @@ public class RbtMapPerformanceTest {
             keyAndValue = String.valueOf(i + counterDesc);
             map.setValue(i + counterDesc, keyAndValue);
         }
-        //String keyAndValue1 = String.valueOf(10);
-        //String keyAndValue2 = String.valueOf(2);
-        //int oCoChodzi = keyAndValue1.compareTo(keyAndValue2);
-        //if(oCoChodzi > 0){
-        //    System.out.println("o chuj chodzi");
-        //}
-
     }
 
     private void saveResult(int currentSize, int nOfPuts) {
