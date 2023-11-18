@@ -10,20 +10,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 
 public class RbtMapTest {
-    
-    
+
     @Test
-    public void TreeShouldHaveDeleteRight(){
+    public void TreeShouldHaveDeleteRight() {
         RbtMap<Integer, String> rbt = new RbtMap<>();
-        rbt.setValue(6,"D");
-        rbt.setValue(5,"L");
-        rbt.setValue(6,"U");
+        rbt.setValue(6, "D");
+        rbt.setValue(5, "L");
+        rbt.setValue(6, "U");
         rbt.Delete();
         assertThat(rbt.getValue(6)).isEqualTo(null);
-        
+
     }
+
     @Test
-    public void TreeShouldHaveAllRightNodesBlack(){
+    public void TreeShouldHaveAllRightNodesBlack() {
         // given
         Stack<Node<Integer, String>> stack = new Stack<>();
         RbtMap<Integer, String> rbt = new RbtMap<>();
@@ -35,21 +35,43 @@ public class RbtMapTest {
         rbt.setValue(5,"S");
         rbt.setValue(4,"N");
         rbt.setValue(7,"Y");
+
 */
-        rbt.setValue(13,"D");
-        rbt.setValue(12,"L");
-        rbt.setValue(11,"U");
-        rbt.setValue(10,"G");
-        rbt.setValue(9,"A");
-        rbt.setValue(8,"S");
-        rbt.setValue(7,"N");
-        rbt.setValue(6,"Y");
-        rbt.setValue(5,"1");
-        rbt.setValue(4,"2");
-        rbt.setValue(3,"3");
-        rbt.setValue(2,"4");
-        rbt.setValue(1,"5");
-        rbt.setValue(0,"6");
+        rbt.setValue(17, "17");
+        rbt.setValue(16, "16");
+        rbt.setValue(15, "15");
+        rbt.setValue(14, "14");
+        rbt.setValue(13, "13");
+        rbt.setValue(12, "12");
+        rbt.setValue(11, "11");
+        rbt.setValue(10, "10");
+        rbt.setValue(9, "9");
+        rbt.setValue(8, "8");
+        rbt.setValue(7, "7");
+        rbt.setValue(6, "6");
+        rbt.setValue(5, "5");
+        rbt.setValue(4, "4");
+        rbt.setValue(3, "3");
+        rbt.setValue(2, "2");
+        rbt.setValue(1, "1");
+        rbt.setValue(0, "0");
+        rbt.setValue(-1, "-1");
+        rbt.setValue(-2, "-2");
+        rbt.setValue(-3, "-3");
+        rbt.setValue(-4, "-4");
+        rbt.setValue(-5, "-5");
+        rbt.setValue(-6, "-6");
+        rbt.setValue(-7, "-7");
+        rbt.setValue(-8, "-8");
+        rbt.setValue(-9, "-9");
+        rbt.setValue(-10, "-10");
+        rbt.setValue(-11, "-11");
+        rbt.setValue(-12, "-12");
+        rbt.setValue(-13, "-13");
+        //rbt.setValue(-14,"-14");
+        //rbt.setValue(-15,"-15");
+        //rbt.setValue(-16,"-16");
+        //rbt.setValue(-17,"-17");
 
         Node<Integer, String> root = rbt.getRoot();
         root.printTreeWithValues(root, 0);
@@ -72,11 +94,11 @@ public class RbtMapTest {
     }
 
     @Test
-    public void TreeCantHaveTwoConsecutiveLeftRedNodes (){
+    public void TreeCantHaveTwoConsecutiveLeftRedNodes() {
         // given
         Stack<Node<Integer, String>> stack = new Stack<>();
         RbtMap<Integer, String> rbt = new RbtMap<>();
-        rbt.setValue(1,"D");
+        /*rbt.setValue(1,"D");
         rbt.setValue(3,"L");
         rbt.setValue(6,"U");
         rbt.setValue(2,"G");
@@ -84,6 +106,25 @@ public class RbtMapTest {
         rbt.setValue(5,"S");
         rbt.setValue(4,"N");
         rbt.setValue(7,"Y");
+
+         */
+        rbt.setValue(1, "1");
+        rbt.setValue(2, "2");
+        rbt.setValue(3, "3");
+        rbt.setValue(4, "4");
+        rbt.setValue(5, "5");
+        rbt.setValue(6, "6");
+        rbt.setValue(7, "7");
+        rbt.setValue(8, "8");
+        rbt.setValue(9, "9");
+        rbt.setValue(10, "10");
+        rbt.setValue(11, "11");
+        rbt.setValue(12, "12");
+        rbt.setValue(13, "13");
+        rbt.setValue(14, "14");
+        rbt.setValue(15, "15");
+        rbt.setValue(16, "16");
+        //rbt.setValue(17,"17");
         Node<Integer, String> root = rbt.getRoot();
         int IsTwoConsecutiveLeftNodesRed = 0;
         root.printTreeWithValues(root, 0);
@@ -97,7 +138,7 @@ public class RbtMapTest {
 
             if (root.getLeft() != null && root.getLeft().isRed()) {
                 Node<Integer, String> temp = root.getLeft();
-                if(temp.getLeft() != null && temp.getLeft().isRed())
+                if (temp.getLeft() != null && temp.getLeft().isRed())
                     IsTwoConsecutiveLeftNodesRed = 1;
             }
             root = root.getRight();
@@ -109,20 +150,25 @@ public class RbtMapTest {
     @Test
     public void AllPathShouldHaveTheSameNoOfBlackNodes() {
         RbtMap<Integer, String> rbt = new RbtMap<>();
-        rbt.setValue(1,"D");
-        rbt.setValue(2,"L");
-        rbt.setValue(6,"U");
-        rbt.setValue(2,"G");
-        rbt.setValue(9,"A");
-        rbt.setValue(5,"S");
-        rbt.setValue(4,"N");
-        rbt.setValue(18,"Y");
+        rbt.setValue(1, "D");
+        rbt.setValue(2, "L");
+        rbt.setValue(6, "U");
+        rbt.setValue(2, "G");
+        rbt.setValue(9, "A");
+        rbt.setValue(5, "S");
+        rbt.setValue(4, "N");
+        rbt.setValue(18, "Y");
+        rbt.setValue(3, "A");
+        rbt.setValue(2, "S");
+        rbt.setValue(6, "N");
+        rbt.setValue(14, "Y");
+        //rbt.Delete(); TEN TEST NIE PRZECHODZI JEØELI WSTAWI SI  DELETE -> COå èLE DZIA£A
         Node<Integer, String> root = rbt.getRoot();
         Node<Integer, String> firstPath = rbt.getRoot();
         int expectedBlackDepth = 0;
         root.printTreeWithValues(root, 0);
         while (firstPath != null) {
-            if(firstPath.isBlack())
+            if (firstPath.isBlack())
                 expectedBlackDepth++;
             firstPath = firstPath.getLeft();
         }
@@ -145,11 +191,11 @@ public class RbtMapTest {
         if (node.isBlack()) {
             blackDepth++;
         }
-        if(flag == 1) {
+        if (flag == 1) {
             return flag;
         }
         flag = checkBlackDepth(node.getLeft(), blackDepth, expectedBlackDepth, flag);
-        if(flag == 1){
+        if (flag == 1) {
             return flag;
         }
         flag = checkBlackDepth(node.getRight(), blackDepth, expectedBlackDepth, flag);
@@ -163,7 +209,6 @@ public class RbtMapTest {
         rbt.setValue(6, "D");
         rbt.setValue(3, "P");
         rbt.setValue(5, "Czarnek");
-
 
 
         // when
@@ -195,6 +240,7 @@ public class RbtMapTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage(message);
     }
+
     @Test
     public void should_ThrowException_WhenTryingAddNullKey() {
         // given

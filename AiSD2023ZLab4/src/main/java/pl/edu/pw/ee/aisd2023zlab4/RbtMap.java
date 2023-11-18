@@ -25,12 +25,13 @@ public class RbtMap<K extends Comparable<K>, V> implements MapInterface<K, V> {
         }
         return tree.get(key);
     }
+
     @Override
     public Node<K, V> getRoot() {
         return tree.getRoot();
     }
-    
-    
+
+
     public void Delete() {
         tree.deleteMax();
     }
