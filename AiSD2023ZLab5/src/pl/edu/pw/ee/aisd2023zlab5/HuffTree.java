@@ -84,4 +84,26 @@ public class HuffTree {
         }
     }
 
+    public String dictionaryEncoding( ){
+        return dictionaryEncoding( root, "");
+    }
+    private String dictionaryEncoding(Node node, String zapis) {
+        if (node == null) {
+            return zapis;
+        }
+        String a;
+        if (node.getLeft() == null && node.getRight() == null) {
+            zapis += '1';
+            a = "";
+        }
+        else
+            a = "0";
+        System.out.println("\n"+node.getLetter() + " left " + zapis);
+        zapis = dictionaryEncoding(node.getLeft(), zapis + a);
+
+        zapis = dictionaryEncoding(node.getRight(), zapis );
+        return zapis;
+    }
+
+
 }
