@@ -10,7 +10,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String filePathRead = "C:\\Users\\user\\AiSD\\Romeo.txt"; //F:\AiSD\niemanie.txt
+        String filePathRead = "C:\\Users\\user\\AiSD\\niemanie.txt"; //F:\AiSD\niemanie.txt
         String filePathWrite = "C:\\Users\\user\\AiSD\\kompresja.txt";
         int maxSize=100_000;
         // wyjmuje dwa sk³adam je w jeden z left i right i go wk³adam spowrotem
@@ -45,7 +45,7 @@ public class Main {
                 raf.write(byteValue);
                 filled = wynik.length() - i - 8;
             }
-            System.out.println(filled);
+            System.out.println("filled s³ownika = " + filled);
 
             if (filled > 0) {
                 byteString = wynik.substring(wynik.length() - filled);
@@ -63,7 +63,7 @@ public class Main {
             else {
                 byteString = "";
             }
-
+            /// to na gurze mi musi zwracaæ byteString, ale te¿ i filled, a nie filled chyba nie musi
             ////
             System.out.println("HALCIOOOOOOOOOO");
             //System.out.println(byteString); to chyba nie wa¿ne
@@ -103,12 +103,12 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        /// to na gurze musi mi chyba zwracaæ filled
         System.out.println("\nDEKOMPRESJAAAAAAAAAAAAAA LESSS GO\n");
 
         System.out.println("STARE FILLED PRZED CZYTANIEM = " + filled);
         HuffTree tree1 = new HuffTree();
-        /*
+
         try (FileInputStream fis = new FileInputStream(filePathWrite)) {
             int byteRead;
             byteRead = fis.read();
@@ -120,12 +120,18 @@ public class Main {
             wynik = binaryRepresentation.substring(3,8);
             System.out.println(wynik);
             System.out.println("Robimy coœ");
-            tree1.builtTreeFromEncodedDictionary(binaryRepresentation, fis);
+            int h = tree1.builtTreeFromEncodedDictionary(binaryRepresentation, fis);
+            System.out.println("h = " + h);
+            tree1.printTreeWithValues(tree1.getRoot(), 4);
+            tree1.decodeFileIntoAnotherFile(h, fis, filled);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-         */
+
+
+        ///TO DZIALA ALE PROBOJEMY INACZEJ
+        /*
         int j=0;
         String file="";
         try (FileInputStream fis = new FileInputStream(filePathWrite)) {
@@ -156,5 +162,6 @@ public class Main {
 
         //tree1.printTreeWithValues(tree1.getRoot(),0);
         tree1.decodeFileIntoAnotherFile(file, j, filled);
+         */
     }
 }

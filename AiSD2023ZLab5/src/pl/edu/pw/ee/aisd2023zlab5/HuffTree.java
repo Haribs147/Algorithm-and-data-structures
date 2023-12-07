@@ -1,15 +1,14 @@
 package pl.edu.pw.ee.aisd2023zlab5;
 
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.RandomAccessFile;
+import java.io.*;
 import java.util.Objects;
+
 
 public class HuffTree {
 
     private Node root;
+    private String read;
     public String[] dictionary;
 
     public HuffTree(Heap huffHeap){
@@ -181,32 +180,28 @@ public class HuffTree {
     }
 
 
-   /*
-      public int builtTreeFromEncodedDictionary( String dictionary, FileInputStream fis ) throws IOException {
-        builtTreeFromEncodedDictionary( root, dictionary, 3, fis);
+
+    public int builtTreeFromEncodedDictionary( String dictionary, FileInputStream fis ) throws IOException {
+        read = dictionary;
+        int i = builtTreeFromEncodedDictionary( root, 3, fis);
+        return i;
     }
 
-
-
-   private int builtTreeFromEncodedDictionary(Node node, String dictionary, int i, FileInputStream fis) throws IOException {
+   private int builtTreeFromEncodedDictionary(Node node, int i, FileInputStream fis) throws IOException {
 
         if ( i == 8 ) {
             int byteRead = fis.read();
-            dictionary = String.format("%8s", Integer.toBinaryString(byteRead)).replace(' ', '0');
-            System.out.println( " i == 0 " + dictionary);
+            read = String.format("%8s", Integer.toBinaryString(byteRead)).replace(' ', '0');
             i = 0;
         }
-        if( dictionary.charAt(i) == '1'){
-            String temp;
-            temp = dictionary.substring(i+1);
-            int byteRead = fis.read();
-            dictionary = String.format("%8s", Integer.toBinaryString(byteRead)).replace(' ', '0');
 
-            temp += dictionary.substring(0, i+1);
+        if( read.charAt(i) == '1'){
+            String temp;
+            temp = read.substring(i+1);
+            int byteRead = fis.read();
+            read = String.format("%8s", Integer.toBinaryString(byteRead)).replace(' ', '0');
+            temp += read.substring(0, i+1);
             int letter = Integer.parseInt(temp, 2);
-            System.out.println((char)letter);
-            System.out.println(" Czytamy '1'  " + dictionary);
-            System.out.println(" i == " + i);
             node.setValue(1);
             node.setLetter((char)letter);
             return i;
@@ -214,15 +209,99 @@ public class HuffTree {
         else{
             node.setLeft(new Node(0, 'l') );
             i++;
-            i = builtTreeFromEncodedDictionary(node.getLeft(), dictionary, i, fis);
+            i = builtTreeFromEncodedDictionary(node.getLeft(), i, fis);
             node.setRight(new Node(0, 'r') );
             i++;
-            System.out.println(" i == " + i + " dictionary = " + dictionary);
-            i = builtTreeFromEncodedDictionary(node.getRight(), dictionary, i, fis);
-            return i;
+            i = builtTreeFromEncodedDictionary(node.getRight(), i, fis);
         }
+        return i;
     }
-    */
+    public void decodeFileIntoAnotherFile(int h, FileInputStream fis, int filled) throws IOException {
+        decodeFileIntoAnotherFile(h, root, fis, filled);
+    }
+
+    private void decodeFileIntoAnotherFile(int h, Node node, FileInputStream fis, int filled) throws IOException {
+        RandomAccessFile raf = new RandomAccessFile("C:\\Users\\user\\AiSD\\dekodowany.txt", "rw");
+        Node temp = node;
+        int flag = 0;
+        String binaryRepresentation;
+        System.out.println("read  = " + read);
+        System.out.println( "h = "+h);
+        if (h < 7) {
+            for (int i = h+1; i < 8;) {
+                while (node.getLeft() != null && node.getRight() != null) {
+                    if (read.charAt(i) == '0') {
+                        node = node.getLeft();
+                        i++;
+                    } else {
+                        node = node.getRight();
+                        i++;
+                    }
+                    if( i == 8){
+                        break;
+                    }
+                }
+                if (i < 8) {
+                    raf.write(node.getLetter());
+                    System.out.println(" co jest " + node.getLetter());
+                    node = temp;
+                }
+            }
+        }
+        int counter = 0;
+        int byteRead;
+        int howManyBytes = fis.available();
+        System.out.println("howManyBytes = "+ howManyBytes);
+        for(int j = 0; j < howManyBytes-1; j++){
+            counter = 0;
+            byteRead = fis.read();
+            binaryRepresentation = String.format("%8s", Integer.toBinaryString(byteRead & 0xFF)).replace(' ', '0');
+            System.out.println(binaryRepresentation);
+            while(counter != 8) {
+                while (node.getLeft() != null && node.getRight() != null && counter != 8) {
+                    if (binaryRepresentation.charAt(counter) == '0') {//tu counter może wyjsc za osiem trzbea dac w ifie cos
+                        node = node.getLeft();
+                        counter++;
+                    } else {
+                        node = node.getRight();
+                        counter++;
+                    }
+                }
+                if (node.getLeft() == null && node.getRight() == null) {
+                    raf.write(node.getLetter());
+                    System.out.println(node.getLetter());
+                    node = temp;
+                }
+            }
+        }
+        System.out.println(node.getLetter());
+        byteRead = fis.read();
+        binaryRepresentation = String.format("%8s", Integer.toBinaryString(byteRead & 0xFF)).replace(' ', '0');
+        if( filled == 0){
+            filled = 8;
+        }
+        System.out.println(binaryRepresentation);
+        for(int j = 0; j < filled;){
+            while (node.getLeft() != null && node.getRight() != null && j != filled) {
+                if (binaryRepresentation.charAt(j) == '0') {
+                    System.out.println("0 j = " + j);
+                    node = node.getLeft();
+                    j++;
+                } else {
+                    System.out.println("1 j = " + j);
+                    node = node.getRight();
+                    j++;
+                }
+            }
+            raf.write(node.getLetter());
+            System.out.println(node.getLetter());
+            node = temp;
+        }
+
+        System.out.println(counter);
+        raf.close();
+    }
+
 
 
 }
