@@ -85,6 +85,10 @@ public class Heap{
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         int currentLetter;
         while ((currentLetter = reader.read()) != -1) {
+            if (currentLetter > 256) {
+                System.out.println(currentLetter);
+                System.out.println((char)currentLetter);
+            }
             letters[currentLetter]++;
         }
         Heap huffHeap = new Heap(maxSize * 2 + 1);
