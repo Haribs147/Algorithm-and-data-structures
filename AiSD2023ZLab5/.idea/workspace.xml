@@ -5,47 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924e91e2-552e-43be-933f-b39825ac008e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dekodowany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dekodowany.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kompresja.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/HuffTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/HuffTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AiSD2023ZLab5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dekodowany.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/HuffTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2YjItDD9EHmVH4RhleRzwwOzCze" />
+  <component name="ProjectId" id="2ZIcT1OaoxuMAz9pjvIoukFl0Ud" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab5&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Romeo dekompresja.executor": "Run",
+    "Application.Romeo kompresja.executor": "Run",
+    "Application.Test 4 kompresja.executor": "Run",
+    "Application.niemanie dekompresja.executor": "Run",
+    "Application.niemanie kompresja.executor": "Run",
+    "JUnit.HeapTest.executor": "Run",
+    "JUnit.HeapTest.heapShouldDeleteRight.executor": "Run",
+    "JUnit.HeapTest.should_ThrowException_WhenFileHasMoreThan1ByteLetters.executor": "Run",
+    "JUnit.HeapTest.should_ThrowException_WhenFileIsLessThan3Bytes.executor": "Run",
+    "JUnit.HeapTest.testEmptyHeap.executor": "Run",
+    "JUnit.HeapTest.testIsHeapBuiltRightFromAFile.executor": "Run",
+    "JUnit.HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly.executor": "Run",
+    "JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly.executor": "Run",
+    "JUnit.HuffTreeTest.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.constructor_WithSameInputAndOutputFileNames_ThrowsRuntimeException.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.getFilePathWrite_ReturnsCorrectFilePath.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileAndtxtToAFile.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsTxt.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsTxtAndOutputIsTxt.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldAddTxtToAFile.executor": "Run",
+    "JUnit.ToCompressOrNotToCompressTest.shouldReturnExceptionWhenInvalidArguments.executor": "Run",
+    "Maven.AiSD2023ZLab5 [clean,test,jacoco:report].executor": "Run",
+    "Maven.AiSD2023ZLab5 [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab4",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\src\test\java\pl\edu\pw\ee\aisd2023zlab5" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.edu.pw.ee.aisd2023zlab5" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean test jacoco:report" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly">
+    <configuration name="Romeo dekompresja" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
+      <module name="AiSD2023ZLab5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany.comp C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\dekompresowany.txt " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Romeo kompresja" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
+      <module name="AiSD2023ZLab5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\Romeo.txt C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test 4 kompresja" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
+      <module name="AiSD2023ZLab5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\test4.txt C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="niemanie dekompresja" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
+      <module name="AiSD2023ZLab5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany.comp C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\dekompresowany.txt " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="niemanie kompresja" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
+      <module name="AiSD2023ZLab5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\niemanie.txt C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany.txt " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab5" />
       <extension name="coverage">
         <pattern>
@@ -53,19 +161,102 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
+      <option name="METHOD_NAME" value="buildDictionary_WithTree_BuildsDictionaryCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
+      <option name="METHOD_NAME" value="builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToCompressOrNotToCompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.ToCompressOrNotToCompressTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.ToCompressOrNotToCompressTest" />
+      <option name="METHOD_NAME" value="shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.niemanie kompresja" />
+      <item itemvalue="Application.niemanie dekompresja" />
+      <item itemvalue="Application.Romeo kompresja" />
+      <item itemvalue="Application.Romeo dekompresja" />
+      <item itemvalue="Application.Test 4 kompresja" />
+      <item itemvalue="JUnit.HuffTreeTest" />
+      <item itemvalue="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
+      <item itemvalue="JUnit.HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" />
+      <item itemvalue="JUnit.ToCompressOrNotToCompressTest" />
+      <item itemvalue="JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
+        <item itemvalue="JUnit.HuffTreeTest" />
+        <item itemvalue="JUnit.HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" />
+        <item itemvalue="JUnit.ToCompressOrNotToCompressTest" />
+        <item itemvalue="JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
         <option value="jdk-20.0.2-corretto-20.0.2.1-8336523bb0d9-e34d2934" />
       </set>
     </attachedChunks>
@@ -74,11 +265,22 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="924e91e2-552e-43be-933f-b39825ac008e" name="Changes" comment="" />
-      <created>1701032775840</created>
+      <created>1702113037727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701032775840</updated>
+      <updated>1702113037727</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
