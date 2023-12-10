@@ -14,6 +14,12 @@ public class HuffTree {
     public Node getRoot(){
         return root;
     }
+
+    public void setRoot(Node root){
+        this.root = root;
+    }
+
+
     public String getRead(){
         return read;
     }
@@ -62,17 +68,6 @@ public class HuffTree {
         buildDictionary(node.getRight(), code + "1");
     }
 
-    public void printTreeWithValues(Node node, int indent) {
-        if (node == null) {
-            return;
-        }
-        printTreeWithValues(node.getRight(), indent + 4);
-        for (int i = 0; i < indent; i++) {
-            System.out.print(" ");
-        }
-        System.out.println(node.getLetter() );
-        printTreeWithValues(node.getLeft(), indent + 4);
-    }
     public int builtTreeFromEncodedDictionary( String dictionary, FileInputStream fis ) throws IOException {
         read = dictionary;
         int i = builtTreeFromEncodedDictionary( root, 3, fis);

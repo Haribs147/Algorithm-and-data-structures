@@ -30,7 +30,6 @@ public class Decompressor {
             String wynik = binaryRepresentation.substring(3, 8);
             h = tree.builtTreeFromEncodedDictionary(binaryRepresentation, fis);
             read = tree.getRead();
-            tree.printTreeWithValues(tree.getRoot(),4);
 
             Node node = tree.getRoot();
             int lastDotIndex = filePathWrite.lastIndexOf('.');

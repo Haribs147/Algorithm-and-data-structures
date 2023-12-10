@@ -19,6 +19,9 @@ public class Compressor {
         tree.buildDictionary();
         this.tree = tree;
     }
+    public Compressor(HuffTree tree) {
+        this.tree = tree;
+    }
     public String dictionaryEncoding(){
         Node root = tree.getRoot();
         return dictionaryEncoding( root, "");
@@ -61,7 +64,6 @@ public class Compressor {
                 raf.write(byteValue);
                 filled = wynik.length() - i - 8;
             }
-
             if (filled > 0) {
                 byteString = wynik.substring(wynik.length() - filled);
                 byteValue = Integer.parseInt(byteString, 2);

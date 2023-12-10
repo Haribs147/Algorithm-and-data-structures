@@ -88,8 +88,8 @@ public class HeapTest {
     public void testIsHeapBuiltRightFromAFile() {
         Heap heap = new Heap(512);;
         try {
-            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\niemanie.txt", "niemanie");
-            heap = heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\niemanie.txt");
+            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\niemanie.txt", "niemanie");
+            heap = heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\niemanie.txt");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -120,8 +120,8 @@ public class HeapTest {
 
         // when
         exceptionCaught = catchThrowable(() -> {
-            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\mniejNizTrzy.txt", "ab");
-            heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\mniejNizTrzy.txt");
+            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\mniejNizTrzy.txt", "ab");
+            heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\mniejNizTrzy.txt");
         });
         // then
         String message = "Po co ty chcesz kompresować mniej niż trzy znaki?!?!?!?";
@@ -140,8 +140,8 @@ public class HeapTest {
 
         // when
         exceptionCaught = catchThrowable(() -> {
-            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\notASCII.txt", "ąęłć");
-            heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\notASCII.txt");
+            fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\notASCII.txt", "ąęłć");
+            heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\notASCII.txt");
         });
         // then
         String message = "Prosze zapisac plik w ascii, a jak dalej nie bedzie dzialac to znaczy ze w pliku sa znaki nie ascii";

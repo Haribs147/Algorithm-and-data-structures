@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edce3371-28eb-4a72-affc-2e2d10fdfc28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/AiSD2023ZLab5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/dekodowany.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/HuffTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/src/pl/edu/pw/ee/aisd2023zlab5/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/src/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/src/pl/edu/pw/ee/aisd2023zlab5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab5/src/pl/edu/pw/ee/aisd2023zlab5/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab5/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +58,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/mjago/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab3",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/AiSD/2023Z_AISD_git_GR2_gr11/AiSD2023ZLab3&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />

@@ -5,31 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924e91e2-552e-43be-933f-b39825ac008e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/DecompressorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AiSD2023ZLab5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dekodowany.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/HuffTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AiSD2023ZLab5/pl/edu/pw/ee/aisd2023zlab5/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pw/ee/aisd2023zlab5/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dekompresowany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dekompresowany.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kompresowany.comp" beforeDir="false" afterPath="$PROJECT_DIR$/kompresowany.comp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niemanie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/niemanie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Compressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Decompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Decompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HuffTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HuffTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/kompresowany.comp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/mniejNizTrzy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/niemanie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/notASCII.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +54,15 @@
     "Application.Test 4 kompresja.executor": "Run",
     "Application.niemanie dekompresja.executor": "Run",
     "Application.niemanie kompresja.executor": "Run",
+    "JUnit.CompressorTest.executor": "Run",
+    "JUnit.CompressorTest.filePathWriteIsNull.executor": "Run",
+    "JUnit.CompressorTest.testConstructorMakingTreeAndFileEncoding.executor": "Run",
+    "JUnit.CompressorTest.testConstructorMakingTreeAndFileEncodingWhenFilledIs8.executor": "Run",
+    "JUnit.CompressorTest.testDictionaryEncoding.executor": "Run",
+    "JUnit.DecompressorTest.executor": "Run",
+    "JUnit.DecompressorTest.testDecompress.executor": "Run",
+    "JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile.executor": "Run",
+    "JUnit.DecompressorTest.testDecompressWhenFilledIsNot8.executor": "Run",
     "JUnit.HeapTest.executor": "Run",
     "JUnit.HeapTest.heapShouldDeleteRight.executor": "Run",
     "JUnit.HeapTest.should_ThrowException_WhenFileHasMoreThan1ByteLetters.executor": "Run",
@@ -112,7 +114,7 @@
       <command value="mvn clean test jacoco:report" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly">
+  <component name="RunManager" selected="Application.Romeo dekompresja">
     <configuration name="Romeo dekompresja" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
       <module name="AiSD2023ZLab5" />
@@ -153,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompressorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab5" />
       <extension name="coverage">
         <pattern>
@@ -162,13 +164,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.CompressorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecompressorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab5" />
       <extension name="coverage">
         <pattern>
@@ -177,45 +179,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
-      <option name="METHOD_NAME" value="buildDictionary_WithTree_BuildsDictionaryCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2023ZLab5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HuffTreeTest" />
-      <option name="METHOD_NAME" value="builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToCompressOrNotToCompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2023ZLab5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.ToCompressOrNotToCompressTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.DecompressorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecompressorTest.testDecompress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2023ZLab5" />
       <extension name="coverage">
         <pattern>
@@ -224,8 +194,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.ToCompressOrNotToCompressTest" />
-      <option name="METHOD_NAME" value="shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.DecompressorTest" />
+      <option name="METHOD_NAME" value="testDecompress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.DecompressorTest" />
+      <option name="METHOD_NAME" value="testDecompressWhenFilledIs0AndWithGreaterFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecompressorTest.testDecompressWhenFilledIsNot8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.DecompressorTest" />
+      <option name="METHOD_NAME" value="testDecompressWhenFilledIsNot8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,19 +239,19 @@
       <item itemvalue="Application.Romeo kompresja" />
       <item itemvalue="Application.Romeo dekompresja" />
       <item itemvalue="Application.Test 4 kompresja" />
-      <item itemvalue="JUnit.HuffTreeTest" />
-      <item itemvalue="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
-      <item itemvalue="JUnit.HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" />
-      <item itemvalue="JUnit.ToCompressOrNotToCompressTest" />
-      <item itemvalue="JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
+      <item itemvalue="JUnit.CompressorTest" />
+      <item itemvalue="JUnit.DecompressorTest" />
+      <item itemvalue="JUnit.DecompressorTest.testDecompress" />
+      <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile" />
+      <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIsNot8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HuffTreeTest.builtTreeFromEncodedDictionary_WithEncodedData_BuildsTreeCorrectly" />
-        <item itemvalue="JUnit.HuffTreeTest" />
-        <item itemvalue="JUnit.HuffTreeTest.buildDictionary_WithTree_BuildsDictionaryCorrectly" />
-        <item itemvalue="JUnit.ToCompressOrNotToCompressTest" />
-        <item itemvalue="JUnit.ToCompressOrNotToCompressTest.shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt" />
+        <item itemvalue="JUnit.DecompressorTest" />
+        <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile" />
+        <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIsNot8" />
+        <item itemvalue="JUnit.DecompressorTest.testDecompress" />
+        <item itemvalue="JUnit.CompressorTest" />
       </list>
     </recent_temporary>
   </component>
