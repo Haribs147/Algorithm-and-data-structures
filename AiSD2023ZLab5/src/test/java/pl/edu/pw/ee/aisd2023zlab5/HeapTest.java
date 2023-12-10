@@ -150,5 +150,4 @@ public class HeapTest {
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage(message);
     }
-
 }

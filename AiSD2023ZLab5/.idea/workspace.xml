@@ -9,7 +9,11 @@
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dekompresowany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dekompresowany.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kompresowany.comp" beforeDir="false" afterPath="$PROJECT_DIR$/kompresowany.comp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niemanie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/niemanie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
     "JUnit.DecompressorTest.testDecompress.executor": "Run",
     "JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile.executor": "Run",
     "JUnit.DecompressorTest.testDecompressWhenFilledIsNot8.executor": "Run",
+    "JUnit.HeapTest.emptyFile.executor": "Run",
     "JUnit.HeapTest.executor": "Run",
     "JUnit.HeapTest.heapShouldDeleteRight.executor": "Run",
     "JUnit.HeapTest.should_ThrowException_WhenFileHasMoreThan1ByteLetters.executor": "Run",
@@ -81,7 +86,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,7 +106,7 @@
       <command value="mvn clean test jacoco:report" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.niemanie kompresja">
+  <component name="RunManager" selected="Application.niemanie dekompresja">
     <configuration name="Romeo dekompresja" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
       <module name="AiSD2023ZLab5" />
@@ -138,21 +143,6 @@
       <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
       <module name="AiSD2023ZLab5" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\niemanie.txt C:\Users\user\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab5\kompresowany.txt " />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompressorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2023ZLab5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.CompressorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,13 +210,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeapTest.emptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2023ZLab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2023zlab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2023zlab5" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.HeapTest" />
+      <option name="METHOD_NAME" value="emptyFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.niemanie kompresja" />
       <item itemvalue="Application.niemanie dekompresja" />
       <item itemvalue="Application.Romeo kompresja" />
       <item itemvalue="Application.Romeo dekompresja" />
       <item itemvalue="Application.Test 4 kompresja" />
-      <item itemvalue="JUnit.CompressorTest" />
+      <item itemvalue="JUnit.HeapTest.emptyFile" />
       <item itemvalue="JUnit.DecompressorTest" />
       <item itemvalue="JUnit.DecompressorTest.testDecompress" />
       <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile" />
@@ -234,11 +240,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapTest.emptyFile" />
         <item itemvalue="JUnit.DecompressorTest" />
         <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIs0AndWithGreaterFile" />
         <item itemvalue="JUnit.DecompressorTest.testDecompressWhenFilledIsNot8" />
         <item itemvalue="JUnit.DecompressorTest.testDecompress" />
-        <item itemvalue="JUnit.CompressorTest" />
       </list>
     </recent_temporary>
   </component>

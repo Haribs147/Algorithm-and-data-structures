@@ -83,6 +83,7 @@ public class Heap{
         int[] letters = new int[maxSize];
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         int currentLetter;
+        int n = 0;
         Path path = Path.of(filePath);
         if(Files.size(path) < 3){
             throw new IllegalArgumentException("Po co ty chcesz kompresować mniej niż trzy znaki?!?!?!?");
@@ -97,7 +98,11 @@ public class Heap{
         for (int i = 0; i < letters.length; i++) {
             if (letters[i] > 0) {
                 huffHeap.insert(new Node(letters[i], (char) i));
+                n++;
             }
+        }
+        if (n == 1) {
+            huffHeap.insert(new Node(0 , 'f'));
         }
         reader.close();
         return huffHeap;
