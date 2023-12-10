@@ -30,7 +30,7 @@ public class HuffTreeTest {
     public void builtTreeFromEncodedDictionary() throws IOException {
         String filePathRead = "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\fileForTests\\treeDecodingTest.comp";
         HuffTree tree = new HuffTree();
-        String read="";
+        String read = "";
         try (FileInputStream fis = new FileInputStream(filePathRead)) {
             int byteRead;
             byteRead = fis.read();
@@ -45,7 +45,8 @@ public class HuffTreeTest {
         assertThat(tree.getRoot().getLeft().getLeft().getLetter()).isEqualTo('l');
         assertThat(tree.getRoot().getRight().getLetter()).isEqualTo('a');
     }
-    private void fileBuilder(String fileName, String fileText){
+
+    private void fileBuilder(String fileName, String fileText) {
         Path filePath = Path.of(fileName);
         try {
             Files.writeString(filePath, fileText);

@@ -60,6 +60,7 @@ public class ToCompressOrNotToCompressTest {
         assertThat(result).isEqualTo(0);
         assertThat(compressor.getFilePathWrite()).isEqualTo("output.comp");
     }
+
     @Test
     public void shouldAddCompToAFileWhenInputIsNotTxt() {
         String[] validArgs = {"input", "output"};
@@ -69,6 +70,7 @@ public class ToCompressOrNotToCompressTest {
 
         assertThat(compressor.getFilePathWrite()).isEqualTo("output.comp");
     }
+
     @Test
     public void shouldAddCompToAFileWhenInputIsTxt() {
         String[] validArgs = {"input.txt", "output"};
@@ -78,6 +80,7 @@ public class ToCompressOrNotToCompressTest {
 
         assertThat(compressor.getFilePathWrite()).isEqualTo("output.comp");
     }
+
     @Test
     public void shouldAddCompToAFileWhenInputIsNotTxtAndOutputIsTxt() {
         String[] validArgs = {"input", "output.txt"};

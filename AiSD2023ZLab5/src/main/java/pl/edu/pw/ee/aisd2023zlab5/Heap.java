@@ -7,29 +7,39 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Heap{
+public class Heap {
 
     private Node[] heap;
     private int size;
     private int maxSize;
+
     public Heap(int maxSize) {
         this.maxSize = maxSize;
         this.size = 0;
         this.heap = new Node[maxSize];
     }
-    private int parent(int pos) { return (pos - 1) / 2; }
 
-    private int leftChild(int pos) { return (2 * pos + 1); }
+    private int parent(int pos) {
+        return (pos - 1) / 2;
+    }
 
-    private int rightChild(int pos) { return (2 * pos + 2); }
+    private int leftChild(int pos) {
+        return (2 * pos + 1);
+    }
 
-    public int getSize() { return size; }
+    private int rightChild(int pos) {
+        return (2 * pos + 2);
+    }
+
+    public int getSize() {
+        return size;
+    }
 
     public void insert(Node newElem) {
         if (size >= maxSize) {
             return;
         }
-        heap[size]= newElem;
+        heap[size] = newElem;
         heapUp(size);
         size++;
     }
@@ -54,6 +64,7 @@ public class Heap{
         heapDown(0);
         return removed;
     }
+
     private void heapDown(int pos) {
         Node first = heap[pos];
         int left = leftChild(pos);
@@ -64,7 +75,7 @@ public class Heap{
         //jeżeli nowy node jest większy od prawego/lewego to koniec
         //jak nie to zamień nowy node z prawym/lewym i ich indeksy
         int i;
-        while (pos < size/2) {
+        while (pos < size / 2) {
             if (right < size && heap[left].compareTo(heap[right]) > 0)
                 i = right;
             else
@@ -85,7 +96,7 @@ public class Heap{
         int currentLetter;
         int n = 0;
         Path path = Path.of(filePath);
-        if(Files.size(path) < 3){
+        if (Files.size(path) < 3) {
             throw new IllegalArgumentException("Po co ty chcesz kompresować mniej niż trzy znaki?!?!?!?");
         }
         while ((currentLetter = reader.read()) != -1) {
@@ -102,7 +113,7 @@ public class Heap{
             }
         }
         if (n == 1) {
-            huffHeap.insert(new Node(0 , 'f'));
+            huffHeap.insert(new Node(0, 'f'));
         }
         reader.close();
         return huffHeap;

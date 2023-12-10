@@ -8,9 +8,10 @@ import java.nio.file.Path;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
+
 public class HeapTest {
 
-    private void fileBuilder(String fileName, String fileText){
+    private void fileBuilder(String fileName, String fileText) {
         Path filePath = Path.of(fileName);
         try {
             Files.writeString(filePath, fileText);
@@ -22,20 +23,20 @@ public class HeapTest {
     @Test
     public void heapShouldDeleteRight() {
         Heap heap = new Heap(10);
-        heap.insert(new Node(5,'a'));
-        heap.insert(new Node(3,'b'));
-        heap.insert(new Node(17,'c'));
-        heap.insert(new Node(10,'d'));
-        heap.insert(new Node( 84,'e'));
-        heap.insert(new Node(19,'f'));
-        heap.insert(new Node(6,'g'));
-        heap.insert(new Node(22,'h'));
-        heap.insert(new Node(9,'i'));
+        heap.insert(new Node(5, 'a'));
+        heap.insert(new Node(3, 'b'));
+        heap.insert(new Node(17, 'c'));
+        heap.insert(new Node(10, 'd'));
+        heap.insert(new Node(84, 'e'));
+        heap.insert(new Node(19, 'f'));
+        heap.insert(new Node(6, 'g'));
+        heap.insert(new Node(22, 'h'));
+        heap.insert(new Node(9, 'i'));
         assertThat(heap.getSize()).isEqualTo(9);
         Node removed = heap.remove();
         assertThat(removed.getLetter()).isEqualTo('b');
         assertThat(removed.getValue()).isEqualTo(3);
-        for(int i = 0; i <6; i++) {
+        for (int i = 0; i < 6; i++) {
             removed = heap.remove();
         }
         assertThat(heap.getSize()).isEqualTo(2);
@@ -83,10 +84,10 @@ public class HeapTest {
     }
 
 
-
     @Test
     public void testIsHeapBuiltRightFromAFile() {
-        Heap heap = new Heap(512);;
+        Heap heap = new Heap(512);
+        ;
         try {
             fileBuilder("src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\niemanie.txt", "niemanie");
             heap = heap.buildHeap(512, "src\\test\\java\\pl\\edu\\pw\\ee\\aisd2023zlab5\\tempFiles\\niemanie.txt");
@@ -102,11 +103,11 @@ public class HeapTest {
     public void testIfHeapIsMaxCannotInsertNew() {
         int maxSize = 2;
         Heap heap = new Heap(maxSize);
-        heap.insert(new Node(5,'a'));
-        heap.insert(new Node(3,'b'));
+        heap.insert(new Node(5, 'a'));
+        heap.insert(new Node(3, 'b'));
         int size = heap.getSize();
         assertThat(size).isEqualTo(2);
-        heap.insert(new Node(17,'c'));
+        heap.insert(new Node(17, 'c'));
         size = heap.getSize();
         assertThat(size).isEqualTo(2);
     }

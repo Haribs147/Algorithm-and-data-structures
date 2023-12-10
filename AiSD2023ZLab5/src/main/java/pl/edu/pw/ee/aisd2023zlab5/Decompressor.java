@@ -13,14 +13,15 @@ public class Decompressor {
     private int filled;
     private String read;
     private FileInputStream fis;
-    public Decompressor(HuffTree tree ){
+
+    public Decompressor(HuffTree tree) {
         this.tree = tree;
         this.h = 0;
         this.filled = 0;
         this.read = "";
     }
 
-    public void decompress(String filePathRead, String filePathWrite){
+    public void decompress(String filePathRead, String filePathWrite) {
         try (FileInputStream fis = new FileInputStream(filePathRead)) {
             int byteRead;
             byteRead = fis.read();
@@ -44,7 +45,7 @@ public class Decompressor {
             output.truncate(0);
             Node temp = node;
             if (h < 7) {
-                for (int i = h+1; i < 8;) {
+                for (int i = h + 1; i < 8; ) {
                     while (node.getLeft() != null && node.getRight() != null) {
                         if (read.charAt(i) == '0') {
                             node = node.getLeft();
@@ -53,7 +54,7 @@ public class Decompressor {
                             node = node.getRight();
                             i++;
                         }
-                        if( i == 8){
+                        if (i == 8) {
                             break;
                         }
                     }
@@ -65,14 +66,14 @@ public class Decompressor {
             }
             int counter = 0;
             int howManyBytes = fis.available();
-            for(int j = 0; j < howManyBytes-1; j++){
-                if(j%1000 == 0){
-                    System.out.println((float)j/howManyBytes * 100 + "%");
+            for (int j = 0; j < howManyBytes - 1; j++) {
+                if (j % 1000 == 0) {
+                    System.out.println((float) j / howManyBytes * 100 + "%");
                 }
                 counter = 0;
                 byteRead = fis.read();
                 binaryRepresentation = String.format("%8s", Integer.toBinaryString(byteRead & 0xFF)).replace(' ', '0');
-                while(counter != 8) {
+                while (counter != 8) {
                     while (node.getLeft() != null && node.getRight() != null && counter != 8) {
                         if (binaryRepresentation.charAt(counter) == '0') {
                             node = node.getLeft();
@@ -90,10 +91,10 @@ public class Decompressor {
             }
             byteRead = fis.read();
             binaryRepresentation = String.format("%8s", Integer.toBinaryString(byteRead & 0xFF)).replace(' ', '0');
-            if( filled == 0){
+            if (filled == 0) {
                 filled = 8;
             }
-            for(int j = 0; j < filled;){
+            for (int j = 0; j < filled; ) {
                 while (node.getLeft() != null && node.getRight() != null && j != filled) {
                     if (binaryRepresentation.charAt(j) == '0') {
                         node = node.getLeft();

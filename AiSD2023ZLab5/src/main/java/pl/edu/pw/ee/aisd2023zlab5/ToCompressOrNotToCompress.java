@@ -3,31 +3,34 @@ package pl.edu.pw.ee.aisd2023zlab5;
 public class ToCompressOrNotToCompress {
     private String filePathRead;
     private String filePathWrite;
-    public ToCompressOrNotToCompress(String [] args){
-        if(args.length != 2){
+
+    public ToCompressOrNotToCompress(String[] args) {
+        if (args.length != 2) {
             throw new RuntimeException("Podaj plik wejściowy do kompresji i wyjściowy jaki ma być skompresowany, albo wejściowy do dekompresji i wyjściowy jaki ma być zdekompresowany");
         }
-        if(args[0].equals(args[1])){
+        if (args[0].equals(args[1])) {
             throw new RuntimeException("Plik wejściowy i wyjściowy nie mogą się tak samo nazywać");
         }
         filePathRead = args[0];
-        filePathWrite =  args[1];
+        filePathWrite = args[1];
     }
-    public String getFilePathRead(){
+
+    public String getFilePathRead() {
         return filePathRead;
     }
-    public String getFilePathWrite(){
+
+    public String getFilePathWrite() {
         return filePathWrite;
     }
-    public int checkIfCompressAndChangeFileNames(){
+
+    public int checkIfCompressAndChangeFileNames() {
         int decompress = 0;
         int lastDotIndex = filePathRead.lastIndexOf('.');
         if (lastDotIndex != -1) {
             String prefix;
-            if(filePathRead.substring(lastDotIndex + 1).equals("comp")){
+            if (filePathRead.substring(lastDotIndex + 1).equals("comp")) {
                 decompress = 1;
-            }
-            else{
+            } else {
                 lastDotIndex = filePathWrite.lastIndexOf('.');
                 if (lastDotIndex != -1) {
                     prefix = filePathWrite.substring(0, lastDotIndex + 1);
@@ -36,8 +39,7 @@ public class ToCompressOrNotToCompress {
                     filePathWrite = filePathWrite + ".comp";
                 }
             }
-        }
-        else{
+        } else {
             lastDotIndex = filePathWrite.lastIndexOf('.');
             if (lastDotIndex != -1) {
                 String prefix = filePathWrite.substring(0, lastDotIndex + 1);

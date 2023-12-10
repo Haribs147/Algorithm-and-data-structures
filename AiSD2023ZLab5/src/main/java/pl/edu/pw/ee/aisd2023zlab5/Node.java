@@ -10,6 +10,7 @@ public class Node implements Comparable<Node> {
     private char letter;
     private Node left, right;
     private String code = "";
+
     public Node(int value, char letter) {
         this.value = value;
         this.letter = letter;
@@ -33,7 +34,7 @@ public class Node implements Comparable<Node> {
         this.letter = letter;
     }
 
-    public Node  getLeft() {
+    public Node getLeft() {
         return left;
     }
 
@@ -54,7 +55,7 @@ public class Node implements Comparable<Node> {
     }
 
     public int compareTo(Node o) {
-        return  this.value - o.value;
+        return this.value - o.value;
     }
 
 }
