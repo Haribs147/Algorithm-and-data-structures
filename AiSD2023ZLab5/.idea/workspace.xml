@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924e91e2-552e-43be-933f-b39825ac008e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/DecompressorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AiSD2023ZLab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dekompresowany.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dekompresowany.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kompresowany.comp" beforeDir="false" afterPath="$PROJECT_DIR$/kompresowany.comp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niemanie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/niemanie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Compressor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Decompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/Decompressor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd2023zlab5/HuffTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HuffTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/HuffTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/kompresowany.comp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/mniejNizTrzy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/niemanie.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2023zlab5/notASCII.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +101,7 @@
       <command value="mvn clean test jacoco:report" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Romeo dekompresja">
+  <component name="RunManager" selected="Application.niemanie kompresja">
     <configuration name="Romeo dekompresja" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2023zlab5.Main" />
       <module name="AiSD2023ZLab5" />
