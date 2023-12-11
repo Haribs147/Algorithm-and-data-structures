@@ -1,0 +1,5 @@
+# Created at 2023-12-11T11:56:39.033
+Boot Manifest-JAR contains absolute paths in classpath 'F:\AiSD\2023Z_AISD_git_GR2_gr11\AiSD2023ZLab6\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
