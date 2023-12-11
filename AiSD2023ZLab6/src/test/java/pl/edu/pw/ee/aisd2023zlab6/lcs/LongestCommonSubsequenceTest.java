@@ -14,26 +14,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 
 /**
- *
  * @author userl
  */
 public class LongestCommonSubsequenceTest {
-    
+
     public LongestCommonSubsequenceTest() {
     }
 
-    /**
-     * Test of findLcs method, of class LongestCommonSubsequence.
-     */
     @Test
     public void testFindLcs() {
-        System.out.println("findLcs");
         String topText = "MIKOLAJ";
         String leftText = "NIKOGA";
         String expResult = "";
         LongestCommonSubsequence lcs = new LongestCommonSubsequence();
         String result = lcs.findLcs(topText, leftText);
-        assertThat(result).isEqualTo(null);
+        assertThat(result).isEqualTo("IKOA");
     }
-    
+
 }

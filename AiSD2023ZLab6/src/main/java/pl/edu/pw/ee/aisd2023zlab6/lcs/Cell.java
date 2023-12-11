@@ -6,28 +6,29 @@ package pl.edu.pw.ee.aisd2023zlab6.lcs;
 
 
 public class Cell {
-    
-    
+
+
     private int value;
     private char arrow;
-    
-    public Cell(int value, char arrow){
+
+    public Cell(int value, char arrow) {
         this.value = value;
         this.arrow = arrow;
     }
-    public int getValue(){
+
+    public int getValue() {
         return value;
     }
-    
-    public char getArrow(){
+
+    public char getArrow() {
         return arrow;
     }
-    
-    public void setValue(int value){
+
+    public void setValue(int value) {
         this.value = value;
     }
-    
-    public void setArrow(char arrow){
+
+    public void setArrow(char arrow) {
         this.arrow = arrow;
     }
 
