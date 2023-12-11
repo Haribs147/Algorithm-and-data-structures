@@ -8,7 +8,6 @@ public class LongestCommonSubsequence {
         int topTextSize = topText.length() + 1;
         int leftTextSize = leftText.length() + 1;
         Cell[][] matrix = new Cell[leftTextSize][topTextSize];
-        System.out.println("Gdzie");
         for (int i = 0; i < leftTextSize; i++) {
             for (int j = 0; j < topTextSize; j++) {
                 matrix[i][j] = new Cell(0, 'u');
@@ -17,13 +16,11 @@ public class LongestCommonSubsequence {
         for (int i = 0; i < leftTextSize - 1; i++) {
             for (int j = 0; j < topTextSize - 1; j++) {
                 if (topText.charAt(j) != leftText.charAt(i)) {
-                    System.out.println("top text = " + topText.charAt(j) + "left text = " + leftText.charAt(i));
-
                     if (matrix[i][j + 1].getValue() < matrix[i + 1][j].getValue()) {
                         matrix[i + 1][j + 1].setArrow('l');
-                        matrix[i + 1][j + 1].setValue(matrix[i][j + 1].getValue());
-                    } else {
                         matrix[i + 1][j + 1].setValue(matrix[i + 1][j].getValue());
+                    } else {
+                        matrix[i + 1][j + 1].setValue(matrix[i][j + 1].getValue());
                     }
                 } else {
                     matrix[i + 1][j + 1].setArrow('d');
@@ -31,22 +28,10 @@ public class LongestCommonSubsequence {
                 }
             }
         }
-        for (int i = 0; i < leftTextSize; i++) {
-            for (int j = 0; j < topTextSize; j++) {
-                System.out.print(matrix[i][j].getValue() + " ");
-            }
-            System.out.println();
-        }
-        for (int i = 0; i < leftTextSize; i++) {
-            for (int j = 0; j < topTextSize; j++) {
-                System.out.print(matrix[i][j].getArrow() + " ");
-            }
-            System.out.println();
-        }
         String wynik = "";
         int i = leftTextSize - 1;
         int j = topTextSize - 1;
-        while (i != 0) {
+        while (i != 0 && j != 0) {
             char move = matrix[i][j].getArrow();
             if (move == 'd') {
                 i--;
@@ -61,5 +46,4 @@ public class LongestCommonSubsequence {
         String essa = new StringBuilder(wynik).reverse().toString();
         return essa;// zapoznać się z rozdziałem z cormena z rodzidziału dynamicznego
     }
-
 }

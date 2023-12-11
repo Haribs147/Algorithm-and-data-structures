@@ -23,12 +23,12 @@ public class LongestCommonSubsequenceTest {
 
     @Test
     public void testFindLcs() {
-        String topText = "MIKOLAJ";
-        String leftText = "NIKOGA";
+        String topText = "asdaiohowaidhasdhasldhaouwqhpgajslmfnasbvjsacxovhsnldskafsd";
+        String leftText = "asdapiwqedqowiheqw;ojenasjlbcascosa'";
         String expResult = "";
         LongestCommonSubsequence lcs = new LongestCommonSubsequence();
         String result = lcs.findLcs(topText, leftText);
-        assertThat(result).isEqualTo("IKOA");
+        assertThat(result).isEqualTo("asdaiwdowhjnasjacosa");
     }
 
 }
