@@ -10,6 +10,13 @@ public class GraphBfsResult extends GraphSearchResult {
         this.distance = distance;
     }
 
+    public int FindPath(int endId) {
+        if (distance[endId] == Integer.MAX_VALUE) {
+            return 0;
+        }
+        return 1;
+    }
+
     public int[] getDistance() {
         return distance;
     }

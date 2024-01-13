@@ -3,16 +3,13 @@ package pl.edu.pw.ee.aisd2023zlab7.graphsearch.dfs;
 import pl.edu.pw.ee.aisd2023zlab7.data.input.Graph;
 import pl.edu.pw.ee.aisd2023zlab7.data.outcome.GraphDfsResult;
 import pl.edu.pw.ee.aisd2023zlab7.graphsearch.services.GraphSearch;
-
+import pl.edu.pw.ee.aisd2023zlab7.graphsearch.utils.Kolor;
+import static pl.edu.pw.ee.aisd2023zlab7.graphsearch.utils.Kolor.*;
 public class DepthFirstSearch implements GraphSearch {
-
-    private static final int WHITE = 0;
-    private static final int GRAY = 1;
-    private static final int BLACK = 2;
 
     private final int initVal = -1;
 
-    private int[] color;
+    private Kolor[] color;
     private int[] prev;
     private int[] inputOrder;
     private int[] outputOrder;
@@ -45,7 +42,7 @@ public class DepthFirstSearch implements GraphSearch {
     private void initColors() {
         int nVertices = graph.getNumOfVertices();
 
-        color = new int[nVertices];
+        color = new Kolor[nVertices];
 
         for (int i = 0; i < nVertices; i++) {
             color[i] = WHITE;

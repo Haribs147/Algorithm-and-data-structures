@@ -33,4 +33,18 @@ public class BreadthFirstSeaerchTest {
         assertThat(result.getPrevVertices()).containsExactly(new int[]{-1, 0, 1, 4, 0, 4, 2, -1, -1});
     }
 
+    @Test
+    public void should_Return1WhenThereIsPathFromStartIdToEndId() {
+        // given
+        Graph graph = new AdjacencyMatrix(PATH_GRAPH_9_9);
+        int startVerticeId = 0;
+        int endVerticeId = 6;
+        // when
+        GraphBfsResult result = (GraphBfsResult) graphSearch.searchGraphPaths(graph, startVerticeId);
+
+        // then
+        assertThat(result.FindPath(endVerticeId)).isEqualTo(1);
+
+    }
+
 }
