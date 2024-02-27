@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Repozytorium Algorytmy i Struktury Danych</h1>
+<h1>Data Structures and Algorithms Repository</h1>
 
-  <p>To repozytorium zawiera materiały używane w ramach przedmiotu "Algorytmy i Struktury Danych". Zawiera ćwiczenia z kodem przygotowanym przez prowadzącego, które wymagały analizy, modyfikacji lub dodania wymaganych implementacji. Ponadto, zawiera także ćwiczenie nr. 5, które zostało wykonane samodzielnie.</p>
+<p>This repository contains materials used within the course "Data Structures and Algorithms." It includes exercises with code prepared by the instructor, which required analysis, modification, or addition of required implementations. Additionally, it also includes exercise number 5, which was completed        independently.</p>
 
-  <h2>Zawartość</h2>
+<h2>Contents</h2>
     <ul>
-        <li><strong>Algorytmy sortowania</strong></li>
-        <li><strong>Tablice mieszające (hash)</strong></li>
-        <li><strong>Drzewa BST, czerwono-czarne</strong></li>
-        <li><strong>Algorytmy zachłanne</strong>
+        <li><strong>Sorting Algorithms</strong></li>
+        <li><strong>Hash Tables</strong></li>
+        <li><strong>BSTs (Binary Search Trees), Red-Black Trees</strong></li>
+        <li><strong>Greedy Algorithms</strong>
             <ul>
-                <li>Kompresja bezstratna algorytmem Huffmana</li>
+                <li>Huffman Lossless Compression</li>
             </ul>
         </li>
-        <li><strong>Programowanie dynamiczne</strong></li>
-        <li><strong>Algorytmy grafowe</strong>
+        <li><strong>Dynamic Programming</strong></li>
+        <li><strong>Graph Algorithms</strong>
             <ul>
-                <li>Poszukiwanie najkrótszej ścieżki</li>
-                <li>Minimalne drzewo rozpinające</li>
+                <li>Shortest Path Finding</li>
+                <li>Minimum Spanning Tree</li>
             </ul>
         </li>
-        <li><strong>Wyszukiwanie wzorca w tekście</strong></li>
+        <li><strong>Pattern Searching in Text</strong></li>
     </ul>
 
-  <h2>Część Samodzielna</h2>
-  <p>Jednym z głównych elementów repozytorium jest ćwiczenie nr. 5, które zostało wykonane w całości samodzielnie. Zawiera ono kompresor i dekompresor plików tekstowych.</p>
+<h2>Independent Part</h2>
+<p>One of the main components of the repository is exercise number 5, which was completed entirely independently. It includes a compressor and decompressor for text files.</p>
 </body>
 </html>
