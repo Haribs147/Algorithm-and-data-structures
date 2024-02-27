@@ -69,11 +69,6 @@ public class Heap {
         Node first = heap[pos];
         int left = leftChild(pos);
         int right = rightChild(pos);
-        //dopóki nie jest liściem
-        //sprawdź czy lewy jest większy od prawego i czy taki istnieje, jeżeli jest to idź do prawego
-        //jak nie to do lewego
-        //jeżeli nowy node jest większy od prawego/lewego to koniec
-        //jak nie to zamień nowy node z prawym/lewym i ich indeksy
         int i;
         while (pos < size / 2) {
             if (right < size && heap[left].compareTo(heap[right]) > 0)
