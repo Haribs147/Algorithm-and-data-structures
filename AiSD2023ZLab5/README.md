@@ -4,6 +4,10 @@
 
 This project contains implementations of a file compressor and decompressor for text files using the Huffman coding algorithm and a priority queue based on a binary heap. The Huffman algorithm is a popular algorithm for lossless data compression, which utilizes binary tree to encode characters based on their frequency of occurrence. The program automatically detects whether compression or decompression is performed based on the file extension. If the file has an extension other than "*.comp", compression is performed; otherwise, decompression is performed.
 
+### Unit Tests
+
+The project includes unit tests to ensure the correctness of the implemented functionalities.
+
 ### How to Use
 
 #### File Compression:
